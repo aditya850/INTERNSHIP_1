@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>DASHBOARD</title>
+  </head>
+  <body class="mixout">
+  <!--------------------------------------                    nav                  --------------------------------------->
+
+<div class="menu-nav">
+
+                    <ul class="menu-list">
+                        <ul class="menu-list">
+                            
+                            <li style="float: right;font-weight: bold;"><a href="/auth/login" id="login_div"
+                                    class="button" style="color:white">LOGIN</a></li>
+                            
+
+
+
+
+
+                            <li><a href="/home">Home</a></li>
+                            <li class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-expanded="true" href="">Algorithms <i class="fa fa-caret-down"></i></a>
+                                <ul class="custom-menu">
+                                    <li><a href="/Analysis-of-Algo">Analysis of algorithm</a></li>
+                                    <li><a href="/searching-sorting">Searching and Sorting</a></li>
+                                    <li><a href="/greedy-Algo">Greedy Algorithms</a></li>
+                                    <li><a href="#">Dynamic Programming</a></li>
+                                    <li>
+                                        <a href="string-Algo">String Algorithms</a></li>
+                                    <li>
+
+                                        <a href="/backtracking">Backtracking</a></li>
+                                    <li>
+                                        <a href="/divide-conquer">Divide and Conquer</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-expanded="true" href="">DS <i class="fa fa-caret-down"></i></a>
+                                <ul class="custom-menu">
+                                    <li>
+                                        <a href="/ds">Data Structures</a></li>
+                                    <li>
+                                        <a href="/array">Array</a></li>
+                                    <li>
+
+                                        <a href="/list">Linked List</a></li>
+                                    <li>
+                                        <a href="/stack">Stack</a></li>
+                                    <li>
+                                        <a href="/queue">Queue</a> </li>
+                                    <li>
+
+                                        <a href="/bt">Binary Tree</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-expanded="true" href="">Languages <i class="fa fa-caret-down"></i></a>
+                                <ul class="custom-menu">
+                                    <li><a href="/c">C</a></li>
+                                    <li><a href="/cpp">C++</a></li>
+                                    <li><a href="/java">JAVA</a></li>
+                                    <li><a href="/py">Python</a></li>
+                                    <li><a href="/sql">SQL</a></li>
+                                    <li><a href="/php">PHP</a></li>
+                                    <li><a href="/js">Javascript</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-expanded="true" href="">Students <i class="fa fa-caret-down"></i></a>
+                                <ul class="custom-menu">
+                                    <li><a href="/campus">Campus Programs</a></li>
+                                    <li><a href="/project">Projects</a></li>
+                                    <li><a href="/place">Placemant cources</a></li>
+
+                                </ul>
+                            </li>
+                            <!-- <li>
+                                <form class="form-inline" action="/home" method="POST"> -->
+                            <!-- <li><input type="text"  name="search" class="typeahead tt-query" autocomplete="off" spellcheck="false"  placeholder="Search"><button type="submit" style="margin-top: 0px;" class="btn btn-default"><i class="fa fa-search"></i></button></li> -->
+                            <!-- <div class="input-group">
+                                        <input type="text" class="form-control typeahead tt-query" size="10"
+                                            name="search" autocomplete="off" spellcheck="false"
+                                            placeholder="Search for...">
+                                        <span class="input-group-btn"> -->
+                            <!-- <button class="btn btn-default" type="button">Go!</button> -->
+                            <!-- <button style="height: 37px;" type="submit" class="btn btn-default"><i
+                                                    class="fa fa-search"></i></button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </li> -->
+                            <li class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                    aria-expanded="true" href="">GATE <i class="fa fa-caret-down"></i></a>
+                                <ul class="custom-menu">
+                                    <li><a href="/gnote">Gate notes</a></li>
+                                    <li><a href="/gcs">Gate CS Corner</a></li>
+                                    <li><a href="/gpaper">Gate Papers</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="#">Codes</a></li>
+                            <li><a href="#">Puzzles</a></li>
+                            <li><a href="/compose">Contribute</a></li>
+                            <li>
+                                <form class="form-inline searchform" action="/home" method="POST">
+                                    <!-- <li><input type="text"  name="search" class="typeahead tt-query" autocomplete="off" spellcheck="false"  placeholder="Search"><button type="submit" style="margin-top: 0px;" class="btn btn-default"><i class="fa fa-search"></i></button></li> -->
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" size="10" name="search"
+                                            autocomplete="off" spellcheck="false" placeholder="Search"
+                                            style="border-radius: 20px 0 0 20px; border: 0; background-color: white;">
+                                        <span class="input-group-btn">
+                                            <!-- <button class="btn btn-default" type="button">Go!</button> -->
+                                            <button style="height: 34px; border-radius: 0 20px 20px 0; border: 0;"
+                                                type="submit" class="btn btn-default"><i
+                                                    class="fa fa-search"></i></button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </li>
+
+                        </ul>
+                </div>
+                <!-- menu nav -->
+            </div>
+        </div>
+        <!-- /container -->
+    </div>
+
+  <!--------------------------------------                  end of nav          --------------------------------------->  
+
+
+  <!-- dash card -->
+  <div class="container-fluid">
+    <div class="row mt-3">
+      <div class="col-lg-3 col-md-3">
+        <div class="card card-border">
+          <div class="card-body">
+              <h4 class="card-title">0 <small class="text-muted">employee</small></h4>
+          </div>
+          <div class="list-group list-group-flush">
+            <a href="employee-page.html" class="list-group-item list-group-item-primary">VIEW ALL</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3">
+        <div class="card card-border">
+          <div class="card-body">
+              <h4 class="card-title">5 <small class="text-muted">jobs</small></h4>
+          </div>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-primary">VIEW ALL</a>
+          </div>
+    </div>
+  </div>
+
+
+  <!-- end of dash card -->
+
+  <!--------------------------------------                    script                --------------------------------------->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
